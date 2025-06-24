@@ -169,9 +169,9 @@ public static class SEngine
                     Stats.Connections = NetworkManager.ConnectionCount;
                     Stats.ActiveConnections = NetworkManager.ActiveConnections;
                     Stats.ConnectionsOnline = NetworkManager.ConnectionsOnline;
-                    Stats.ConnectionsOnline = NetworkManager.ConnectionsOnline1;
-                    Stats.ConnectionsOnline = NetworkManager.ConnectionsOnline2;
-                    Stats.TotalSentBytes = NetworkManager.TotalReceivedBytes;
+                    Stats.ConnectionsOnline1 = NetworkManager.ConnectionsOnline1;
+                    Stats.ConnectionsOnline2 = NetworkManager.ConnectionsOnline2;
+                    Stats.TotalSentBytes = NetworkManager.TotalSentBytes;
                     Stats.TotalReceivedBytes = NetworkManager.TotalReceivedBytes;
                     Stats.ActiveObjects = MapManager.ActiveObjects.Count;
                     Stats.SecondaryObjects = MapManager.SecondaryObjects.Count;
